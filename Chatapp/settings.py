@@ -172,7 +172,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 TEMP = os.path.join(BASE_DIR, 'media/temp')
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "http://54.227.214.78"
 
 DATA_UPLOAD_MAX_MEMORY_SIZE = 10485760 # 10 * 1024 * 1024 (10mb)
 
