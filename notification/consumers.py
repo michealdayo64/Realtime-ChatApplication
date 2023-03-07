@@ -37,7 +37,7 @@ class NotificationConsumer(AsyncJsonWebsocketConsumer):
         try:
             if command == "get_general_notifications":
                 payload = await get_general_notifications(self.scope["user"], content.get("page_number", None))
-                print(payload)
+                #print(payload)
                 if payload == None:
                     raise ClientError(204, "Something went wrong retrieving the notifications.")
                 else:
