@@ -50,8 +50,7 @@ INSTALLED_APPS = [
     'personal',
     'public_chat',
     'chat',
-    'notification',
-    'channels'
+    'notification'
     
 ]
 

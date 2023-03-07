@@ -93,10 +93,6 @@ class NotificationConsumer(AsyncJsonWebsocketConsumer):
         )
 
 
-
-
-
-
 @database_sync_to_async
 def get_general_notifications(user, page_number):
     """
