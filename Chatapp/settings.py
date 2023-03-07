@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'personal',
     'public_chat',
     'chat',
-    'notification'
+    'notification',
+    'channels'
     
 ]
 
@@ -93,7 +94,7 @@ CHANNEL_LAYERS = {
 }
 
 WSGI_APPLICATION = f'{config("PROJECT_NAME")}.wsgi.application'
-ASGI_APPLICATION = f'{config("PROJECT_NAME")}.routing.application'
+ASGI_APPLICATION = f'{config("PROJECT_NAME")}.asgi.application'
 
 AUTH_USER_MODEL = "account.Account"
 AUTHENTICATION_BACKENDS = (
