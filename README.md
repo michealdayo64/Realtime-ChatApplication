@@ -1,6 +1,6 @@
 # ChatApplication
 This is a chat application built using python, javascript, websocket and redis server.
-The system comprises the following... 
+The system comprises the following.. 
 1. User Authentication System
     - User can reister on the system
       ![Screen Shot 2023-06-16 at 8 25 26 AM](https://github.com/michealdayo64/Realtime-ChatApplication/assets/55289122/c927be53-be57-456e-8b1d-3032bfa9d1a3)
